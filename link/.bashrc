@@ -7,10 +7,11 @@
 
 alias ls='ls --color=auto'
 
-# Show git info in the prompt.
+# Add git info to the prompt.
 source ~/.git-prompt.sh
-GIT_PS1_SHOWDIRTYSTATE=TRUE
-GIT_PS1_SHOWSTASHSTATE=TRUE
-GIT_PS1_SHOWUNTRACKEDFILES=TRUE
+GIT_PS1_SHOWDIRTYSTATE=true
+GIT_PS1_SHOWSTASHSTATE=true
+GIT_PS1_SHOWUNTRACKEDFILES=true
 GIT_PS1_SHOWUPSTREAM=auto
+
 PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
