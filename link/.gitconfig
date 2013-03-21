@@ -1,0 +1,14 @@
+[user]
+	email = pieter@frenssen.be
+	name = Pieter Frenssen
+[color]
+	branch = auto
+	status = auto
+	diff = auto
+	ui = true
+[branch]
+	autosetuprebase = always
+[core]
+	editor = /usr/bin/vim
+[push]
+	default = simple
