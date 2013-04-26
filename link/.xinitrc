@@ -15,6 +15,6 @@ fi
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
 # Make Caps Lock a second Escape key.
-setxbmap -option caps:escape
+setxkbmap -option caps:escape
 
 exec awesome
