@@ -11,10 +11,11 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
   unset f
 fi
 
-# Load Xresources.
+# Load X defaults.
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
 # Make Caps Lock a second Escape key.
 setxkbmap -option caps:escape
 
+# Launch Awesome WM
 exec awesome
