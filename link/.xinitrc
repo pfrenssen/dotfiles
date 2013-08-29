@@ -17,5 +17,8 @@ fi
 # Make Caps Lock a second Escape key.
 setxkbmap -option caps:escape
 
-# Launch Awesome WM
+# Launch compositor.
+compton &
+
+# Launch Awesome WM.
 exec awesome
