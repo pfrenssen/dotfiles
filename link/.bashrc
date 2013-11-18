@@ -15,3 +15,6 @@ GIT_PS1_SHOWUNTRACKEDFILES=true
 GIT_PS1_SHOWUPSTREAM=auto
 
 PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+
+# Show some pretty system information.
+archey
