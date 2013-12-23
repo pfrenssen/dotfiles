@@ -6,6 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
+alias drush='sudo -u http drush'
 
 # Add git info to the prompt.
 source ~/.git-prompt.sh
