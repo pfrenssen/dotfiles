@@ -1,4 +1,4 @@
-source /etc/vim
+source /etc/vimrc
 
 set nocompatible
 
