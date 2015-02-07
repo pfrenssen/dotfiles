@@ -17,5 +17,8 @@ GIT_PS1_SHOWUPSTREAM=auto
 
 PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 
+# Set VI mode.
+set -o vi
+
 # Show some pretty system information.
 archey
