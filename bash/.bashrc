@@ -21,4 +21,4 @@ PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 set -o vi
 
 # Show some pretty system information.
-archey
+archey3
