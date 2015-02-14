@@ -20,5 +20,8 @@ PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 # Set VI mode.
 set -o vi
 
+# Allow bash completion in sudo.
+complete -cf sudo
+
 # Show some pretty system information.
 archey3
