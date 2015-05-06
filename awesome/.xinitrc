@@ -14,8 +14,8 @@ fi
 # Load X defaults.
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
-# Make Caps Lock a second Escape key.
-setxkbmap -option caps:escape
+# Disable caps lock.
+setxkbmap -option caps:none
 
 # Launch compositor.
 compton &
