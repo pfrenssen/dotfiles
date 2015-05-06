@@ -26,5 +26,8 @@ set -o vi
 # Allow bash completion in sudo.
 complete -cf sudo
 
+# Use vim as default editor.
+export EDITOR=vim
+
 # Show some pretty system information.
 archey3
