@@ -12,6 +12,10 @@ URxvt.pointerBlank: true
 ! Fonts
 URxvt*font: xft:Terminus:8
 
+! Keyboard select
+! https://github.com/muennich/urxvt-perls/blob/master/README.md
+URxvt.perl-ext-common: ...,keyboard-select
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
 
 ! Solarized color scheme for the X Window System
 !
