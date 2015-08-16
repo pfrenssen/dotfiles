@@ -17,6 +17,9 @@ fi
 # Disable caps lock.
 setxkbmap -option caps:none
 
+# Configure Java for non-reparenting window manager.
+export _JAVA_AWT_WM_NONREPARENTING=1
+
 # Launch compositor.
 compton &
 
