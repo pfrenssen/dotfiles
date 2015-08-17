@@ -7,6 +7,7 @@
 
 alias ls='ls --color=auto'
 alias drush='sudo -u http drush'
+alias gb='git branch --all | grep'
 
 # Add git info to the prompt.
 source ~/.git-prompt.sh
