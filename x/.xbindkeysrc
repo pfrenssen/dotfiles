@@ -1,0 +1,19 @@
+# Increase volume.
+"pactl set-sink-volume @DEFAULT_SINK@ +4%"
+  XF86AudioRaiseVolume
+
+# Decrease volume.
+"pactl set-sink-volume @DEFAULT_SINK@ -4%"
+  XF86AudioLowerVolume
+
+# Toggle play/pause.
+"playerctl play-pause"
+  XF86AudioPlay
+
+# Toggle audio mute.
+"pactl set-sink-mute @DEFAULT_SINK@ toggle"
+  XF86AudioMute
+
+# Lock screen when pressing the Calculator button.
+"slock"
+  XF86Calculator

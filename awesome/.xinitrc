@@ -41,5 +41,8 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 # Launch compositor.
 compton &
 
+# Bind multimedia keys
+xbindkeys &
+
 # Launch Awesome WM.
 exec awesome
