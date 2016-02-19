@@ -1,3 +1,8 @@
+# This depends on the following packages:
+# - libpulse (part of pulseaudio)
+# - playerctl
+# - xbindkeys
+
 # Increase volume.
 "pactl set-sink-volume @DEFAULT_SINK@ +4%"
   XF86AudioRaiseVolume
