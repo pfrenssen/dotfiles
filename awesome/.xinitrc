@@ -39,7 +39,7 @@ setxkbmap -option caps:none
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 # Launch compositor.
-compton &
+compton --no-fading-openclose --no-fading-destroyed-argb &
 
 # Bind multimedia keys
 xbindkeys &
