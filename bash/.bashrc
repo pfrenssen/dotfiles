@@ -13,6 +13,8 @@ alias gb='git branch --all | grep'
 alias xdebugoff="sed 's/^zend_extension/;zend_extension/' /etc/php/conf.d/xdebug.ini | sudo tee /etc/php/conf.d/xdebug.ini &> /dev/null"
 alias xdebugon="sed 's/^;zend_extension/zend_extension/' /etc/php/conf.d/xdebug.ini | sudo tee /etc/php/conf.d/xdebug.ini &> /dev/null"
 
+alias fixsteam="find ~/.steam/root/ \\( -name \"libgcc_s.so*\" -o -name \"libstdc++.so*\" -o -name \"libxcb.so*\" -o -name \"libgpg-error.so*\" \\) -print -delete"
+
 # Add git info to the prompt.
 source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
