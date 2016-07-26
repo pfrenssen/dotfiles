@@ -41,6 +41,9 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 # Launch compositor.
 compton --no-fading-openclose --no-fading-destroyed-argb &
 
+# Enable numlock.
+numlockx &
+
 # Bind multimedia keys
 xbindkeys &
 
