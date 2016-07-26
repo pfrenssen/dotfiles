@@ -10,6 +10,9 @@ alias ls='ls --color=auto'
 alias xx='xsel | xsel -b'
 alias gb='git branch --all | grep'
 
+alias xdebugoff="sed 's/^zend_extension/;zend_extension/' /etc/php/conf.d/xdebug.ini | sudo tee /etc/php/conf.d/xdebug.ini &> /dev/null"
+alias xdebugon="sed 's/^;zend_extension/zend_extension/' /etc/php/conf.d/xdebug.ini | sudo tee /etc/php/conf.d/xdebug.ini &> /dev/null"
+
 # Add git info to the prompt.
 source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
