@@ -37,7 +37,3 @@ export EDITOR=vim
 
 # Show some pretty system information.
 archey3
-
-# Temporarily allow to use Diffie-Hellman key exchange to access drupal.org repositories.
-# https://www.drupal.org/node/2552319
-export GIT_SSH_COMMAND='ssh -o KexAlgorithms=+diffie-hellman-group1-sha1'
