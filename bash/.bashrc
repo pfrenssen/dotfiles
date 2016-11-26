@@ -5,7 +5,6 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias selenium='java -jar /usr/share/selenium-server/selenium-server-standalone.jar -Dwebdriver.chrome.driver=/usr/bin/chromedriver'
 alias ls='ls --color=auto'
 alias xx='xsel | xsel -b'
 alias gb='git branch --all | grep'
