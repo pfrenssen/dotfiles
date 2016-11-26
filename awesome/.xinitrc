@@ -47,5 +47,8 @@ numlockx &
 # Bind multimedia keys
 xbindkeys &
 
+# Start Workrave.
+workrave &
+
 # Launch Awesome WM.
 exec awesome
