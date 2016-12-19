@@ -7,6 +7,11 @@
 
 alias ls='ls --color=auto'
 alias xx='xsel | xsel -b'
+
+alias vdb='./vendor/bin/phing'
+alias bi='xdebugoff && ./vendor/bin/phing build-dev && ./vendor/bin/phing install-dev'
+alias selenium='docker run -d -p 4444:4444 -p 5900:5900 --network=host selenium/standalone-chrome-debug && sleep 1 && vncviewer 127.0.0.1:5900 --passwd=/home/pieter/.vnc/passwd'
+
 alias gb='git branch --all | grep'
 
 alias xdebugoff="sed 's/^zend_extension/;zend_extension/' /etc/php/conf.d/xdebug.ini | sudo tee /etc/php/conf.d/xdebug.ini &> /dev/null; sudo systemctl restart httpd"
