@@ -19,6 +19,8 @@ alias xdebugon="sed 's/^;zend_extension/zend_extension/' /etc/php/conf.d/xdebug.
 
 alias fixsteam="find ~/.steam/root/ \\( -name \"libgcc_s.so*\" -o -name \"libstdc++.so*\" -o -name \"libxcb.so*\" -o -name \"libgpg-error.so*\" \\) -print -delete"
 
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+
 # Add git info to the prompt.
 source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
