@@ -50,5 +50,8 @@ xbindkeys &
 # Start Workrave.
 workrave &
 
+# Allow BOINC to read keyboard/mouse movements.
+xhost local:boinc
+
 # Launch Awesome WM.
 exec awesome
