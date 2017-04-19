@@ -53,5 +53,8 @@ workrave &
 # Allow BOINC to read keyboard/mouse movements.
 xhost local:boinc
 
+# Start keynav.
+keynav &
+
 # Launch Awesome WM.
 exec awesome

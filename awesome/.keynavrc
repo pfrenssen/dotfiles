@@ -1,0 +1,2 @@
+ctrl+semicolon start
+p sh xdotool mousemove 0 0, end
