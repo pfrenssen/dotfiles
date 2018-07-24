@@ -73,3 +73,6 @@ URxvt.keysym.M-Escape: perl:keyboard-select:activate
 *color14:                 S_base1
 *color15:                 S_base3
 
+! Disable printing the terminal contents by pressing PrintScreen.
+
+URxvt.print-pipe: "cat > /dev/null"
