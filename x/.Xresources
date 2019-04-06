@@ -10,7 +10,8 @@ URxvt.cursorBlink: true
 URxvt.pointerBlank: true
 
 ! Fonts
-URxvt*font: xft:Terminus:8
+URxvt*font: xft:Inconsolata:regular
+! URxvt*font: xft:Inconsolata:pixelsize=25
 
 ! Keyboard select
 ! https://github.com/muennich/urxvt-perls/blob/master/README.md
