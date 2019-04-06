@@ -17,10 +17,10 @@
 
 # Play previous/next track.
 "playerctl previous"
-  XF86Launch8
+  XF86AudioPrev
 
 "playerctl next"
-  XF86Launch9
+  XF86AudioNext
 
 # Toggle audio mute.
 "pactl set-sink-mute @DEFAULT_SINK@ toggle"
@@ -28,7 +28,7 @@
 
 # Lock screen when pressing the Calculator button.
 "slock"
-  XF86Calculator
+  Scroll_Lock
 
 # Suspend when pressing the Favourites button.
 "sudo systemctl suspend"
