@@ -11,7 +11,8 @@ alias ls='ls --color=auto'
 alias xx='xsel | xsel -b'
 
 alias vdb='./vendor/bin/phing'
-alias bi='xdebugoff && ./vendor/bin/phing build-dev && ./vendor/bin/phing install-dev'
+alias bi='xdebugoff && ./vendor/bin/composer install --prefer-source && ./vendor/bin/phing build-dev && ./vendor/bin/phing install-dev'
+
 alias selenium-debug='docker run -d -p 4444:4444 -p 5900:5900 --network=host selenium/standalone-chrome-debug && sleep 1 && vncviewer 127.0.0.1:5900 --passwd=/home/pieter/.vnc/passwd'
 alias selenium='docker run -d -p 4444:4444 --network=host selenium/standalone-chrome'
 
