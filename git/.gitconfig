@@ -11,6 +11,7 @@
 [core]
 	editor = /usr/bin/vim
 	mergeoptions = --no-edit
+	excludesfile = ~/.gitignore
 [push]
 	default = simple
 [credential]
