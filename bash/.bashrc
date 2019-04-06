@@ -22,6 +22,7 @@ alias xdebugoff="sed 's/^zend_extension/;zend_extension/' /etc/php/conf.d/xdebug
 alias xdebugon="sed 's/^;zend_extension/zend_extension/' /etc/php/conf.d/xdebug.ini | sudo tee /etc/php/conf.d/xdebug.ini &> /dev/null; sudo systemctl restart httpd"
 
 alias fixsteam="find ~/.steam/root/ \\( -name \"libgcc_s.so*\" -o -name \"libstdc++.so*\" -o -name \"libxcb.so*\" -o -name \"libgpg-error.so*\" \\) -print -delete"
+alias chromium='chromium --high-dpi-support=1 --force-device-scale-factor=1'
 
 # Add git info to the prompt.
 source ~/.git-prompt.sh
