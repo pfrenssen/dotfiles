@@ -15,7 +15,7 @@ syntax on
 set cindent
 
 " Line numbers
-set relativenumber
+set number
 
 " Statusbar
 set ruler
