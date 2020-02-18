@@ -19,6 +19,12 @@
 "playerctl previous"
   XF86AudioPrev
 
+"playerctl previous"
+  XF86AudioPrev
+
+"playerctl next"
+  XF86AudioNext
+
 "playerctl next"
   XF86AudioNext
 
