@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+PATH="/home/pieter/.cargo/bin:$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 
 alias ls='ls --color=auto'
 alias xx='xsel | xsel -b'
