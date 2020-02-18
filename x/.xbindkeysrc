@@ -19,8 +19,14 @@
 "playerctl previous"
   XF86Launch8
 
+"playerctl previous"
+  XF86AudioPrev
+
 "playerctl next"
   XF86Launch9
+
+"playerctl next"
+  XF86AudioNext
 
 # Toggle audio mute.
 "pactl set-sink-mute @DEFAULT_SINK@ toggle"
