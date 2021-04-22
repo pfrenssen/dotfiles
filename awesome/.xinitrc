@@ -56,6 +56,9 @@ xhost local:boinc
 # Start keynav.
 keynav &
 
+# Move the mouse pointer into the center of the first display.
+xdotool mousemove 1920 1080
+
 # Launch the home assistant usage tracker.
 $HOME/.local/scripts/home-assistant-report-computer-usage.sh &
 
