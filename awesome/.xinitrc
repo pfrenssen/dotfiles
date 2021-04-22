@@ -42,7 +42,7 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 picom --no-fading-openclose --no-fading-destroyed-argb &
 
 # Enable numlock.
-numlockx &
+#numlockx &
 
 # Bind multimedia keys
 xbindkeys &
