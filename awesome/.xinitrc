@@ -56,5 +56,8 @@ xhost local:boinc
 # Start keynav.
 keynav &
 
+# Launch the home assistant usage tracker.
+$HOME/.local/scripts/home-assistant-report-computer-usage.sh &
+
 # Launch Awesome WM.
 exec awesome
