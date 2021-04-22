@@ -51,7 +51,7 @@ xbindkeys &
 workrave &
 
 # Allow BOINC to read keyboard/mouse movements.
-xhost local:boinc
+#xhost local:boinc
 
 # Start keynav.
 keynav &
