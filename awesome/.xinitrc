@@ -39,10 +39,10 @@ setxkbmap -option caps:escape
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 # Launch compositor.
-compton --no-fading-openclose --no-fading-destroyed-argb &
+picom --no-fading-openclose --no-fading-destroyed-argb &
 
 # Enable numlock.
-numlockx &
+#numlockx &
 
 # Bind multimedia keys
 xbindkeys &
@@ -51,10 +51,16 @@ xbindkeys &
 workrave &
 
 # Allow BOINC to read keyboard/mouse movements.
-xhost local:boinc
+#xhost local:boinc
 
 # Start keynav.
 keynav &
+
+# Move the mouse pointer into the center of the first display.
+xdotool mousemove 1920 1080
+
+# Launch the home assistant usage tracker.
+$HOME/.local/scripts/home-assistant-report-computer-usage.sh &
 
 # Launch Awesome WM.
 exec awesome
