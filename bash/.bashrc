@@ -35,9 +35,6 @@ GIT_PS1_SHOWUPSTREAM=auto
 
 PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 
-# Drush bash completion
-. /usr/local/src/drush/drush.complete.sh
-
 # Set VI mode.
 set -o vi
 
