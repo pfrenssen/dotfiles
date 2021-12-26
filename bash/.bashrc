@@ -48,4 +48,4 @@ export EDITOR=vim
 export COMPOSER_MEMORY_LIMIT=-1
 
 # Show some pretty system information.
-archey3
+fastfetch
