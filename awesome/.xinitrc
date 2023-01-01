@@ -32,7 +32,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-# Disable caps lock.
+# Configure caps lock as an additional escape key.
 setxkbmap -option caps:escape
 
 # Configure Java for non-reparenting window manager.
