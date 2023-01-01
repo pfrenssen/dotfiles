@@ -2,6 +2,7 @@
 # - libpulse (part of pulseaudio)
 # - playerctl
 # - xbindkeys
+# - xorg-backlight
 
 # Increase volume.
 "pactl set-sink-volume @DEFAULT_SINK@ +4%"
@@ -34,8 +35,16 @@
 
 # Lock screen when pressing the Calculator button.
 "slock"
-  Scroll_Lock
+  XF86Calculator
 
 # Suspend when pressing the Favourites button.
 "sudo systemctl suspend"
   XF86Favorites
+
+# Decrease screen brightness
+"xbacklight -dec 2"
+  XF86MonBrightnessDown
+
+# Increase screen brightness
+"xbacklight -inc 2"
+  XF86MonBrightnessUp
