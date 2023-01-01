@@ -12,7 +12,7 @@ set expandtab
 syntax on
 
 " Indenting
-set cindent
+" set cindent -- disabled because it removes indentation for lines starting with '#'
 
 " Line numbers
 set number
