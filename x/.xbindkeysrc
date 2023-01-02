@@ -1,8 +1,8 @@
 # This depends on the following packages:
 # - libpulse (part of pulseaudio)
+# - light
 # - playerctl
 # - xbindkeys
-# - xorg-backlight
 
 # Increase volume.
 "pactl set-sink-volume @DEFAULT_SINK@ +4%"
@@ -42,9 +42,9 @@
   XF86Favorites
 
 # Decrease screen brightness
-"xbacklight -dec 2"
+"light -U 2"
   XF86MonBrightnessDown
 
 # Increase screen brightness
-"xbacklight -inc 2"
+"light -A 2"
   XF86MonBrightnessUp
